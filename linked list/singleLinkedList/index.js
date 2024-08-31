@@ -172,32 +172,3 @@ linkedList.push(2);
 
 console.log(linkedList.size());
 
-// //
-
-// 1. bikin function yang mempunyai satu parameter dengan tipe data integer
-// 2. mengecek kondisi n ketika 1 dan 0
-// 3. return hasil perkalian antara n dengan function factorial yang argumen n nya dikurangi 1
-// 4. coba (●'◡'●)
-
-// function factorial(n) {
-//   if (n === 1) return 1;
-//   else if (n === 0) return null;
-
-//   return n * factorial(n - 1);
-// }
-
-// console.log(factorial(4));
-
-// function fibonacci(n) {
-//   const fib = [0, 1];
-
-//   for (let i = 2; i < n; i++) {
-//     fib.push(fib[i - 1] + fib[i - 2]);
-//   }
-
-//   return fib;
-// }
-
-// const attempt = fibonacci(1);
-
-// console.log(attempt);
